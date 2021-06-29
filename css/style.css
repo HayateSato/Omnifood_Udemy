@@ -43,7 +43,7 @@ html {
 .row {
     max-width: 1140px;
     margin: o auto;
-    margin-left: 50px;  /* ---------------------------------- I added here because the left margin is gone somehow*/
+    margin-left: 10%;  /* ---------------------------------- I added here because the left margin is gone somehow*/
 }
 
 section {
