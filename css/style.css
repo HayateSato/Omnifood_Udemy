@@ -418,13 +418,12 @@ cite img {
 .plan-box div:last-child {
     text-align: center;
     border: none;
-
 }
 
 .plan-price {
     font-size: 300%;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 300;
     color: #e67e22;
 }
 
