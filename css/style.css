@@ -497,6 +497,7 @@ input[type=checkbox] {
 footer {
     background-color: #333;    
     padding: 50px;
+    font-size: 80%;
 }
 
 .footer-nav {
@@ -517,7 +518,7 @@ footer {
 
 .footer-nav li:last-child,
 .social-links li:last-child {
-    margin-right:0 ;
+    margin-right: 0;
 }
 
 .footer-nav li a:link,
@@ -534,11 +535,43 @@ footer {
     color: #ddd;
 }
 
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+
+}
+
+
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size:150%;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+    /* https://www.designpieces.com/2012/12/social-media-colours-hex-and-rgb/ */
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #e95950;
+}
+
+
 footer p {
     font-size: 80%;
     color: #888;
     text-align: center;
-    margin-top:30px;
+    margin-top:20px;
     margin-bottom: 0;
-
 }
