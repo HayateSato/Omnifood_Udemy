@@ -43,7 +43,7 @@ html {
 .row {
     max-width: 1140px;
     margin: o auto;
-    margin-left: 10%;  /* ---------------------------------- I added here because the left margin is gone somehow*/
+
 }
 
 section {
@@ -139,7 +139,7 @@ h2:after {
 .btn:visited,
 input[type=submit] {
     display: line-block;
-    padding: 5px 30px;
+    padding: 5px 10px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 5%;
