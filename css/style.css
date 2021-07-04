@@ -305,6 +305,7 @@ header {
 .steps-box:last-child {
     padding-left: 3%;
     margin-top: 70px;
+    margin-left: 0;  /* I added this */
 }
 
 .app-screen {
@@ -315,7 +316,7 @@ header {
     margin-bottom: 50px;
 }
 
-.works-step:last-od-type {
+.works-step:last-of-type {
     margin-bottom: 180px;
 }
 
@@ -330,12 +331,13 @@ header {
     padding: 5px;
     float: left;
     font-size: 150%;
-    margin-right: 25px;
+    margin-right: 20px;
+
 }
 
 .btn-app img {
     height: 50px;
-    width: auto;
+    width: 150px;
     margin-right: 10px;
 }
 
