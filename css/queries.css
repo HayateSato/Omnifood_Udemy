@@ -3,7 +3,6 @@
 
 /* for big tablet to pc scnreen (widths smaller than the 1140px, which is the width of this website): from 1024px to 1200px */
 @media only screen and (max-width: 1200px) {
-
     .hero-text-box {
         width: 100%;
         padding: 0 2%;
@@ -13,10 +12,6 @@
         padding: 0 2%;
 
     }
-
-    
-
-
 }
 
 /* for small tablet( ) to big tablets (ipad landscape mode): from 768px to 1023px */
@@ -32,9 +27,40 @@
     .long-copy {
         width: 80%;
         margin-left: 10%;
+    }  
+
+    .steps-box {
+        margin-top: 10px;
+    }
+    .steps-box:last-child {
+        padding: 0%;
+        margin-top: 50px;
+    }
+
+    .works-step {
+        margin-bottom: 40px;
+    }
+
+    .works-step div {
+        margin-right: 10px;
+    }
+
+    .works-step:last-of-type {
+        margin-bottom: 60px;
+    }
+    .app-screen {
+        width: 50%;
+    }
+
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
     }
     
-
+    /* changing font-size x0.7 against the font-size only for this section*/
+    .section-cities {
+        font-size: 70%;
+    }
     
 }
 
