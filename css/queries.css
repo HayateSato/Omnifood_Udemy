@@ -56,12 +56,25 @@
         width: 17px;
         margin-right: 5px;
     }
+
+    .section-cities div {
+        font-size: 90%;
+    }
     
-    /* changing font-size x0.7 against the font-size only for this section*/
+    /* changing font-size x0.7 against the font-size only for this section
     .section-cities {
         font-size: 70%;
     }
-    
+
+
+    .city-feature {
+        font-size: 70%;
+        vertical-align:;
+
+    }
+    */
+
+
 }
 
 /* for small phones(iphone) to small tablets (ipad): from 481 to 767px */
