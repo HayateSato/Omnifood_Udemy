@@ -93,6 +93,9 @@ lea
 
     section { padding: 30px; }
 
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+
     .row,
     .hero-text-box { padding: 0 4% }
 
