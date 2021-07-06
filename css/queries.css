@@ -3,22 +3,18 @@ lea
 
 /* for big tablet to pc scnreen (widths smaller than the 1140px, which is the width of this website): from 1024px to 1200px */
 @media only screen and (max-width: 1200px) {
-    .hero-text-box {
-        width: 100%;
-        padding: 0 2%;
-    }
-        
-    .row {
-        padding: 0 2%;
-    }
+.hero-text-box {
+    width: 100%;
+    padding: 0 2%; 
 }
+        
+.row { padding: 0 2%; }
 
+}
 
 /* for small tablet( ) to big tablets (ipad landscape mode): from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    body {
-        font-size: 18px;
-    }
+    body { font-size: 18px; }
 
     .section {
         padding: 60px 0;
@@ -92,6 +88,27 @@ lea
 
 /* for small phones(iphone) to small tablets (ipad): from 481 to 767px */
 @media only screen and (max-width: 767px) {
+
+    body { font-size: 16px; }
+
+    section { padding: 30px; }
+
+    .row,
+    .hero-text-box { padding: 0 4% }
+
+    .col { width: 100%; } 
+
+    .main-nav { display: none; }
+
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+
+
+
+
 
 }
 
