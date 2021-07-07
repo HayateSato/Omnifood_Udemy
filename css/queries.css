@@ -134,6 +134,10 @@ lea
 /* for small screen size phones (such as old ihpone like 5): from 0 to 480px */
 @media only screen and (max-width: 480px) {
 
+
+    section { padding: 25px 0; }
+    .conntact-form { width: 100%; }
+
 }
 
 
