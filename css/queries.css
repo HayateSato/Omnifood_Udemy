@@ -108,6 +108,19 @@ lea
         margin-left: 0%;
     }
 
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px; }
+
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+
+    .steps-box:first-child { text-align: center; }
+    .app-screen { width: 40px;}
 
 
 
