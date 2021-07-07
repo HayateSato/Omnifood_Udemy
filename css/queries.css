@@ -97,7 +97,10 @@ lea
     h2 { font-size: 150%; }
 
     .row,
-    .hero-text-box { padding: 0 4% }
+    .hero-text-box { 
+        padding: 0 4%;
+        width: 100%;
+    }
     .col { 
         width: 100%;
         margin: 0 0 4% 0;
