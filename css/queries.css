@@ -98,8 +98,10 @@ lea
 
     .row,
     .hero-text-box { padding: 0 4% }
-
-    .col { width: 100%; } 
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+     } 
 
     .main-nav { display: none; }
 
