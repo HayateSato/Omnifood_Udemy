@@ -1,6 +1,5 @@
 .DS_Store
 package.json
-
 /css/.DS_Store
-
+.vscode
 
