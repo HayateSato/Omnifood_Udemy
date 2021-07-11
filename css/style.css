@@ -208,7 +208,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.logo
+.logo,
 .logo-black {
     height: 100px;
     width: auto;
@@ -264,6 +264,12 @@ header {
     padding: 8px 0;
     color: #555;
 }
+
+.sticky .logo { display: none;}
+.sticky .logo-black { display: block;}
+
+.main-nav { margin-top: 15px; }
+
 
 /* ---------------------------------- */
 /* FEATURES */
