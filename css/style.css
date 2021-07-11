@@ -45,8 +45,7 @@ body {
 
 .row {
     max-width: 1140px;
-    margin: o auto;
-
+    margin: 0 auto;
 }
 
 section {
