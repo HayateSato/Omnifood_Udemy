@@ -208,13 +208,19 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.logo {
+.logo
+.logo-black {
     height: 100px;
     width: auto;
     float: left;
     margin-top: 20px;
 }
 
+.logo-black {
+    display: hidden;
+}
+
+/* Main navigation (header line that shows the menue of the website) */
 .main-nav {
     float: right;
     list-style: none;
@@ -241,6 +247,22 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+
+/* Stiky navigation - this stays visible at the top of the website even after scrolling down */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.98);
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
 }
 
 /* ---------------------------------- */
