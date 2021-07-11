@@ -1,5 +1,13 @@
 .DS_Store
+
+# npm package
 package.json
+
+# npm prettier package
+package-lock.json
+node_modules
+
+# css folder
 /css/.DS_Store
 .vscode
 
