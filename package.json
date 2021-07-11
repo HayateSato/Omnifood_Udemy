@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/HayateSato/Omnifood_Udemy/issues"
   },
-  "homepage": "https://github.com/HayateSato/Omnifood_Udemy#readme"
+  "homepage": "https://github.com/HayateSato/Omnifood_Udemy#readme",
+  "dependencies": {
+    "prettier": "^2.3.2"
+  }
 }
