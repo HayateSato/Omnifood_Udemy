@@ -261,10 +261,14 @@ header {
     background-color: rgb(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef; 
     font-size: 85%;
+    /* z axis stands for bahind or front of the contents, in which order things are stacked in webpage
+    in this case, sticky nav is always front, not being hidden by anything 
+    9999 is the maxmum number */
+    z-index: 9999;
 
 }
 
-.main-nav { margin-top: 22px; }
+.sticky .main-nav { margin-top: 22px; }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
