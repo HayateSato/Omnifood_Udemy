@@ -1,5 +1,17 @@
 
 
+$(document).ready(function() {
+
+    $('.js--section-features').waypoint(function(direction) {
+        if (direction == 'down') {
+            $('nav').addClass('sticky');
+        } else {
+            $('nav').removeClass('sticky');
+        }
+    }, {
+            // this meaning the sticky nav apper OOpx before this the transition section
+            offset: '60px;'
+    });
 
 
 
