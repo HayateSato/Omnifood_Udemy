@@ -72,7 +72,8 @@ $(document).ready(function() {
      //  animation on scroll
      $('.js--wp-1').waypoint(function(direction) {
          $('.js--wp-1').addClass('animate__fadeIn');
-         
+        }, {
+            offset: '50%'
         });
         
         
