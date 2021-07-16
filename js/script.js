@@ -47,21 +47,33 @@ $(document).ready(function() {
 
     
     $(function(){
+        // starting with # 
         $('a[href*="#"]:not([href="#"])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
               var target = $(this.hash);
               target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            //   if content exists
               if (target.length) {
                 event.preventDefault();
+                // move to the top of this section 
                 $('html, body').animate({
                   scrollTop: target.offset().top
-                }, 1000);
+                //   in 500=0.5s, 1000ms=1s 
+                }, 500);
                 return false;
               } 
             }    
         }); 
      });
 
+
+
+
+    //  animation on scroll
+    $('.js--wp-1').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn');
+
+    });
 
 
     
