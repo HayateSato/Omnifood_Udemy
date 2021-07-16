@@ -626,7 +626,8 @@ footer p {
     Opacity: 0;
 }
 
-.js--wp-1.animated {
+.js--wp-1.animate__fadeIn {
     Opacity: 1;
-}
+} 
+
 
