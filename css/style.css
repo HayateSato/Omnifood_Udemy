@@ -251,6 +251,18 @@ header {
     border-bottom: 2px solid #e67e22;
 }
 
+/* mobile navigation */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
 
 /* Stiky navigation - this stays visible at the top of the website even after scrolling down */
 .sticky {
