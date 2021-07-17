@@ -629,8 +629,12 @@ footer p {
     animation-duration: 1s;
 }
 
+.js--wp-4 {
+    animation-duration: 1s;
+}
+
 .js--wp-1.animate__fadeIn,
-.js--wp-2.animate__fadeIn,
+.js--wp-2.animate__fadeInUp,
 .js--wp-3.animate__fadeIn {
     Opacity: 1;
 } 
