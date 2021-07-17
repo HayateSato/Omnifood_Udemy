@@ -215,7 +215,7 @@ header {
 }
 
 .logo-black {
-    display: hidden;
+    display: none;
     height: 50px;
     width: auto;
     float: left;
@@ -265,7 +265,6 @@ header {
     in this case, sticky nav is always front, not being hidden by anything 
     9999 is the maxmum number */
     z-index: 9999;
-
 }
 
 .sticky .main-nav { margin-top: 22px; }
