@@ -95,6 +95,22 @@ $(document).ready(function() {
         });
         
         
+
+        // mobile nav 
+        $('.js--nav-icon').click(function() {
+            var nav = $('.js--main-nav');
+            var icon = $('.js--nav-icon i');
+
+            nav.slideToggle(200); 
+            if (icon.hasClass('icon-navigation-round')) {
+                icon.addClass('ion-close-round');
+                icon.removeClass('icon-navigation-round');
+            } else {
+                icon.addClass('ion-navigation-round');
+                icon.removeClass('icon-close-round');
+            }
+        });
+
         
         // this was just a test to see it jQuery is working
     //     $('h1').click(function() {
