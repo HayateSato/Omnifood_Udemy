@@ -89,7 +89,7 @@
 /* for small phones(iphone) to small tablets (ipad): from 481 to 767px */
 @media only screen and (max-width: 767px) {
 
-    body { font-size: 16px; }
+    body { font-size: 17px; }
 
     section { padding: 30px; }
 
