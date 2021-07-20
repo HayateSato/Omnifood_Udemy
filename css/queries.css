@@ -162,7 +162,7 @@
     .city-feature { font-size: 250%; }
 
     .section-cities h3,
-    .section-cities h4 { font-size: 140%;}
+    .section-cities .city-feature { font-size: 140%;}
 
 
 
