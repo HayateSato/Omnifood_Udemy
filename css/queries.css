@@ -159,7 +159,10 @@
     .steps-box:first-child { text-align: center; }
     .btn-app img { margin-left: 5% }
 
-    .section-cities .h3 { font-size: 150%; }
+    .city-feature { font-size: 250%; }
+
+    .section-cities h3,
+    .section-cities h4 { font-size: 140%;}
 
 
 
