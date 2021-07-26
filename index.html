@@ -338,8 +338,18 @@
                 <h2>We're happy to hear from you</h2>
             </div>
             <div class="row">
-                <form method="post" action="#" class="contact-form">
+                <form method="post" action="mailer.php" class="contact-form">
                     <div class="row">
+
+                        <div class="form-messages success">
+                            <p>Thank you! Your message has been sent.</p>
+                        </div>
+
+                        <div class="form-message error">
+                            <p>Oops! something went wrong. Please try again!</p>
+                        </div>
+
+                        
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
                         </div>
