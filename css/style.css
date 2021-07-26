@@ -554,8 +554,25 @@ input[type=checkbox] {
 
 } */
 
+.form-box {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    background-color: rgba(225, 225, 225, 0.8);
+    z-index: 10;
+    height: 560px;
+    padding-top: 40px;
+}
 
-
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: #333;
+}
 
 
 /* ---------------------------------- */
